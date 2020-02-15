@@ -1,0 +1,12 @@
+#A lilst of random numbers
+numbers = [15,23,45,34,32]
+#Sum of the number in a list
+sum_ = 0
+for i in numbers:
+    sum_+= i
+    sum_
+#Create a function that return the percentage of each item in the list
+    def perc(num):
+    return num/sum_*100
+    list(map(perc,numbers))
+    
